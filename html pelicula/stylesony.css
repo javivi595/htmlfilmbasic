@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+body {
+    font-family:sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/** Globales **/
+img {
+    max-width: 100%;
+}
+header{
+    background-image: url("img/header.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size:2rem;
+    background-color:rgba(255, 0, 0, 0.445);
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem; /** = 1200px; **/
+    margin: 0 auto;
+}
+h1 {
+    font-size: 3.8rem;
+}
+
+#logo{
+    max-width:8rem;
+    padding-right:25px;
+}
+.navegador{
+    display:flex;
+    padding-left:4rem;
+    justify-content: space-between;
+    background-color: black;
+    padding-right:30px;
+    border: 1px  inset white;
+    align-items: center;
+}
+#buscar{
+    background-color: gray;
+    padding:0.2rem rem;
+    display:inline-flex;
+   
+}
+nav>a{
+    padding:10px;
+    color:white;
+}
+nav>a:hover{
+    color:red;
+}
+
+#cabecera{
+    padding-bottom: 80px;
+    color:white;
+    font-size:2.5rem;
+    max-width:100rem;
+    font-family:Cinzel;
+    
+}
+#cabecera>a{
+    font-family:sans-serif;
+    color:white;
+    border:20px inset rgb(2, 12, 153);
+    background-color:rgba(3, 16, 197, 0.418);
+    font-weight:900;
+}
+#cabecera>a:hover{
+    border:20px inset rgb(155, 0, 0);
+    background-color:rgba(197, 3, 3, 0.418);
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+section>div{
+    max-width:50rem;
+    height:40rem;
+}
+
+#xperia{
+    background-image: url(img/xperia.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:800px;
+    border: black 5px outset;
+}
+#auriculares{
+    background-image: url(img/auriculares.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:800px;
+    border: black 5px outset;
+}
+#tele{
+    background-image: url(img/tele.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:800px;
+    border: black 5px outset;
+}
+.articulos>div>h3{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.39);
+    margin-top:27rem;
+    height: 7rem;
+}
+
+footer{
+    margin-top:15rem;
+    background-color:rgb(59, 25, 25);
+    color:rgb(238, 238, 238);
+    height: 20rem;
+}
+
+.lista{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top:4rem;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
